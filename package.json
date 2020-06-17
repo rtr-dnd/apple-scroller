@@ -1,0 +1,11 @@
+{
+  "name": "apple-scroller",
+  "version": "1.0.15",
+  "description": "Fancy scroll animation as seen on Apple product pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rtr-dnd",
+  "license": "ISC"
+}
