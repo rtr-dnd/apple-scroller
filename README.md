@@ -7,8 +7,9 @@ Implements fancy scroll animation, as seen in Apple website [like this](https://
 - Preloads images to make animation smoother.
 - Covers the entire screen. 
 
-# Requirements
+# Notes
 - Animation rendered as sequential images
+- The more image exists, the smoother the animation becomes
 - Works fine with Node v14.4.0, Chrome 83.0.4103.97
 
 ## Installation

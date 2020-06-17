@@ -79,7 +79,8 @@ class appleScroller {
     self.initContainer()
     self.initCanvas()
     self.addScrollListener()
-    console.log('redrew')
+    this.img.src = this.getFrame(this.index)
+    this.img.onload = () => {this.fillImage(this.img)}
   }
 }
 
